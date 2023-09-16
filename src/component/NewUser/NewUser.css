@@ -1,0 +1,60 @@
+.component{
+    /* align-content: center; */
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    height:190px;
+    border-radius:15px;
+    gap:15px;
+    position: relative;
+}
+
+h4{
+    position: absolute;
+    top:40px;
+    left:40px;
+}
+
+.infocontainer{
+    /* display: flex; */
+    bottom:20px;
+}
+
+.email{
+    position: absolute; 
+    left: 70px; 
+}
+
+.links{
+    flex-direction: column;
+    position: absolute;
+    right: 100px;
+}
+
+@media (max-width: 768px) {
+    .component {
+        background-color: white;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        height:190px;
+        border-radius:15px;
+        gap:15px;
+        position: relative;
+    }
+  
+    h4 {
+      top: 20px; 
+      left: 20px; 
+    }
+  
+    .infocontainer {
+      bottom: 10px; 
+    }
+  
+    .email {
+      left: 40px; 
+    }
+  
+    .links {
+      right: 20px; 
+    }
+  }
+  
